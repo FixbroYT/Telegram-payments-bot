@@ -1,0 +1,7 @@
+python-dotenv
+aiogram
+stripe
+asyncio
+fastapi
+pyngrok
+uvicorn
