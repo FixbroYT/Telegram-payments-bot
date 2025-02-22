@@ -57,8 +57,10 @@ STRIPE_PUBLIC_KEY=your_stripe_public_key
 STRIPE_SECRET_KEY=your_stripe_secret_key
 WEBHOOK_SECRET=your_stripe_webhook_secret
 ```
-### 📌 5. Configure PRODUCT_PRICE_ID
-
+### 📌 5. Configure product
+```
+PRODUCT_PRICE_ID = "your_product_price_id"
+```
 
 ### 📌 6. Run the Bot
 ```bash
