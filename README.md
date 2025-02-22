@@ -57,18 +57,20 @@ STRIPE_PUBLIC_KEY=your_stripe_public_key
 STRIPE_SECRET_KEY=your_stripe_secret_key
 WEBHOOK_SECRET=your_stripe_webhook_secret
 ```
+### 📌 5. Configure PRODUCT_PRICE_ID
 
-### 📌 5. Run the Bot
+
+### 📌 6. Run the Bot
 ```bash
 python bot.py
 ```
 
-### 📌 6. Start FastAPI Webhook Server
+### 📌 7. Start FastAPI Webhook Server
 ```bash
 uvicorn payments:app --host 0.0.0.0 --port 8000
 ```
 
-### 📌 7. Set Up Ngrok for Webhooks
+### 📌 8. Set Up Ngrok for Webhooks
 If running locally, use Ngrok to expose the webhook:
 ```bash
 ngrok http 8000
