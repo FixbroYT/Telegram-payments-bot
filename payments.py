@@ -9,7 +9,7 @@ app = FastAPI()
 
 stripe.api_key = STRIPE_SECRET_KEY
 
-PRODUCT_PRICE_ID = "price_1QtzinDFVaHAgzueh4V9H6Oj"
+PRODUCT_PRICE_ID = ""
 
 
 async def buy_product(message: types.Message):
